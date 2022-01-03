@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import NextLink from 'next/link'
+// import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Quote from '../components/quote'
 // import { BioSection, BioYear } from '../components/bio'
