@@ -50,11 +50,23 @@ const Page = () => {
           everyday.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href={'/works'}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+          {/*<NextLink href={'/works'}>*/}
+          {/*  <Button m={4}*/}
+          {/*          rightIcon={<ChevronRightIcon />}*/}
+          {/*          colorScheme="teal">*/}
+          {/*    My portfolio*/}
+          {/*  </Button>*/}
+          {/*</NextLink>*/}
+          <a href="https://t.me/bookispanacea" target="_blank" rel="noreferrer">
+            <Button m={2} rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Book blog
             </Button>
-          </NextLink>
+          </a>
+          <a href="https://t.me/fromjuniortomiddle" target="_blank" rel="noreferrer">
+            <Button m={2} rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Dev blog
+            </Button>
+          </a>
         </Box>
       </Section>
       {/*<Section delay={0.2}>*/}
